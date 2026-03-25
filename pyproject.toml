@@ -1,0 +1,15 @@
+[project]
+name = "job-creator-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cdk8s>=2.70.52",
+    "cdk8s-plus-33>=2.4.39",
+    "rich>=14.3.3",
+]
+
+[tool.ty.environment]
+root = ["."]
+python = "./.venv"
