@@ -16,7 +16,6 @@
 #     "pytest",
 #     "redis",
 #     "rich",
-#     "scikit-learn",
 #     "scipy",
 #     "sqlalchemy",
 #     "typer",
@@ -24,9 +23,10 @@
 # ]
 # ///
 
-import sys
 import importlib
+import sys
 import time
+
 from rich.console import Console
 from rich.table import Table
 
@@ -49,7 +49,6 @@ PACKAGES = [
     ("pytest", "pytest"),
     ("redis", "redis"),
     ("rich", "rich"),
-    ("scikit-learn", "sklearn"),
     ("scipy", "scipy"),
     ("sqlalchemy", "sqlalchemy"),
     ("typer", "typer"),
